@@ -101,3 +101,33 @@ footer {
   margin-top: 40px;
   font-size: 14px;
 }
+/* Header container */
+.top-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  position: relative;
+}
+
+/* Logo style */
+.header-logo {
+  height: 60px;
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: opacity 0.3s;
+}
+
+.header-logo:hover {
+  opacity: 0.8;
+}
+
+/* Title style */
+.site-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+}
+
